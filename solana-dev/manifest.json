@@ -1,0 +1,18 @@
+{
+  "name": "solana-dev",
+  "description": "Solana 开发专家 - 程序开发、测试、部署全流程支持",
+  "author": "Solana Foundation Best Practices",
+  "arguments": [
+    {
+      "name": "task",
+      "description": "任务类型（program, testing, deploy, ui）",
+      "required": false
+    },
+    {
+      "name": "framework",
+      "description": "框架选择（anchor, pinocchio, native）",
+      "required": false
+    }
+  ],
+  "triggers": ["/solana", "/sol"]
+}

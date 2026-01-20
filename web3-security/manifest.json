@@ -1,0 +1,18 @@
+{
+  "name": "web3-security",
+  "description": "Web3 安全审计专家 - 智能合约漏洞检测与防护",
+  "author": "Blockchain Security Expert",
+  "arguments": [
+    {
+      "name": "scope",
+      "description": "审计范围（文件路径或目录）",
+      "required": false
+    },
+    {
+      "name": "focus",
+      "description": "重点关注（reentrancy, overflow, access-control）",
+      "required": false
+    }
+  ],
+  "triggers": ["/audit", "/security", "/web3sec"]
+}

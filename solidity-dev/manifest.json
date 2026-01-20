@@ -1,0 +1,18 @@
+{
+  "name": "solidity-dev",
+  "description": "Solidity 智能合约开发专家 - EVM 标准实现",
+  "author": "Web3 Expert",
+  "arguments": [
+    {
+      "name": "task",
+      "description": "任务类型（contract, test, audit, deploy）",
+      "required": false
+    },
+    {
+      "name": "standard",
+      "description": "标准（ERC20, ERC721, ERC1155, custom）",
+      "required": false
+    }
+  ],
+  "triggers": ["/solidity", "/solc", "/evm"]
+}

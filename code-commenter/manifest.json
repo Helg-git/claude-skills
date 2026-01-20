@@ -1,0 +1,43 @@
+{
+  "name": "code-commenter",
+  "description": "代码注释专家 - 用中文添加清晰注释，第一性原理+费曼学习法+标准化流程",
+  "author": "Code Documentation Expert",
+  "arguments": [
+    {
+      "name": "file",
+      "description": "要添加注释的文件路径",
+      "required": false
+    },
+    {
+      "name": "files",
+      "description": "批量处理的文件列表（用逗号分隔或通配符）",
+      "required": false
+    },
+    {
+      "name": "directory",
+      "description": "批量处理的目录路径",
+      "required": false
+    },
+    {
+      "name": "pattern",
+      "description": "文件匹配模式（如 *.py, **/*.go）",
+      "required": false
+    },
+    {
+      "name": "style",
+      "description": "注释风格（brief, detailed, educational）",
+      "required": false
+    },
+    {
+      "name": "audience",
+      "description": "目标读者（beginner, intermediate, expert）",
+      "required": false
+    },
+    {
+      "name": "batch_size",
+      "description": "每批处理的文件数量（默认：5）",
+      "required": false
+    }
+  ],
+  "triggers": ["/comment", "/注释", "/docs", "/解释"]
+}
