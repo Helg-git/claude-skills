@@ -1,0 +1,23 @@
+{
+  "name": "project-scaffold",
+  "description": "根据需求自动创建项目脚手架，包含目录结构、配置文件和基础代码",
+  "author": "Claude Code Expert",
+  "arguments": [
+    {
+      "name": "project_name",
+      "description": "项目名称",
+      "required": true
+    },
+    {
+      "name": "project_type",
+      "description": "项目类型（go-service, web-app, cli-tool, library）",
+      "required": true
+    },
+    {
+      "name": "features",
+      "description": "需要的特性（如 database, api, auth, test）",
+      "required": false
+    }
+  ],
+  "triggers": ["/scaffold", "/create-project", "/new"]
+}

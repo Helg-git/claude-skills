@@ -1,0 +1,18 @@
+{
+  "name": "deploy-wizard",
+  "description": "智能生成部署配置，支持 Docker、Kubernetes、云服务等多种部署方式",
+  "author": "Claude Code Expert",
+  "arguments": [
+    {
+      "name": "target",
+      "description": "部署目标（docker, k8s, aws, gcp, vercel）",
+      "required": true
+    },
+    {
+      "name": "service_type",
+      "description": "服务类型（api, worker, web, cron）",
+      "required": false
+    }
+  ],
+  "triggers": ["/deploy", "/deployment", "/infra"]
+}
