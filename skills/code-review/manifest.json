@@ -1,0 +1,18 @@
+{
+  "name": "code-review",
+  "description": "全面的代码审查，检查代码质量、安全性、性能和最佳实践",
+  "author": "Claude Code Expert",
+  "arguments": [
+    {
+      "name": "scope",
+      "description": "审查范围（文件路径或目录）",
+      "required": false
+    },
+    {
+      "name": "focus",
+      "description": "重点关注（security, performance, style, all）",
+      "required": false
+    }
+  ],
+  "triggers": ["/review", "/audit", "/inspect"]
+}

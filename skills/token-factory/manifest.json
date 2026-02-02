@@ -1,0 +1,18 @@
+{
+  "name": "token-factory",
+  "description": "Token 工厂 - 快速生成标准 Token 合约",
+  "author": "Web3 Expert",
+  "arguments": [
+    {
+      "name": "type",
+      "description": "Token 类型（ERC20, ERC721, ERC1155）",
+      "required": true
+    },
+    {
+      "name": "features",
+      "description": "特性（mintable, burnable, pausable, vesting）",
+      "required": false
+    }
+  ],
+  "triggers": ["/token", "/nft", "/ft"]
+}

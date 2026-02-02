@@ -1,0 +1,23 @@
+{
+  "name": "en-speaking-coach",
+  "description": "英语口语教练 - 停顿、连读、语调标注，专门针对中国学习者",
+  "author": "English Learning Expert",
+  "arguments": [
+    {
+      "name": "text",
+      "description": "要标注的英文短文或句子",
+      "required": false
+    },
+    {
+      "name": "focus",
+      "description": "重点关注（pauses, linking, intonation, all）",
+      "required": false
+    },
+    {
+      "name": "level",
+      "description": "难度级别（beginner, intermediate, advanced）",
+      "required": false
+    }
+  ],
+  "triggers": ["/speak", "/pronounce", "/english", "/口语"]
+}
